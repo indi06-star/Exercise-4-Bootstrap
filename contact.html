@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="contact.html">
+    <link rel="stylesheet" href="products.html">
+</head>
+<body>
+    <!-- Navbar sec -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Information</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container my-5">
+  <!-- Contact Heading -->
+  <div class="text-center mb-4">
+    <h2>Contact Us</h2>
+    <p class="text-muted">Feel free to reach out to us anytime!</p>
+  </div>
+
+  <div class="row">
+    <!-- Contact Form -->
+    <div class="col-md-6">
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Indiphile">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="indiphilemcengwa.29@gmail.com">
+        </div>
+        <div class="mb-3">
+          <label for="subject" class="form-label">Subject</label>
+          <input type="text" class="form-control" id="subject" placeholder="Subject">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="col-md-6">
+      <h4>Contact Information</h4>
+      <p class="text-muted">You can also reach us through the following:</p>
+      <ul class="list-unstyled">
+        <li><strong>Address:</strong> 123 Main St, City, Country</li>
+        <li><strong>Phone:</strong> +123 456 7890</li>
+        <li><strong>Email:</strong> artwizz@gmail.com</li>
+      </ul>
+      <h5 class="mt-4">Follow Us On</h5>
+      <a href="#" class="text-muted me-2"><i class="bi bi-facebook"> Facebook Artwizz </i></a>
+      <img width="220px" height="100px" src="data:image/png;base64,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" alt="">
+      <a href="#" class="text-muted me-2"><i class="bi bi-twitter">Twitter Artwizz</i></a>
+      <img width="220px" height="100px" src="data:image/png;base64,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" alt="">
+      <a href="#" class="text-muted"><i class="bi bi-instagram">Instagram Artwizz</i></a>
+      <img width="220px" height="100px" src="https://cdn-icons-png.freepik.com/256/15707/15707869.png?semt=ais_hybrid" alt="">
+    </div>
+  </div>
+</div>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css"></script>
+</body>
+</html>
+
+</body>
+</html>
